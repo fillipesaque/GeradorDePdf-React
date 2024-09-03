@@ -1,0 +1,13 @@
+.textStyleConfig {
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    margin-bottom: 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.colorPicker {
+    cursor: pointer;
+}
