@@ -12,7 +12,7 @@ const GeneratePDF = () => {
   const [description, setDescriptions] = useState("");
   const [fontSize, setFontSize] = useState("12");
   const [fontColor, setFontColor] = useState("#000");
-  const [isBold, setIsBold] = useState("false");
+  const [isBold, setIsBold] = useState(false);
   const [image, setImage] = useState(null);
 
   const generatePdf = () => {
